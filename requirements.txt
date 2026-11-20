@@ -1,0 +1,16 @@
+# 学习本仓库所需依赖
+#
+# 阶段 01 / 02 / 03 只需要 numpy
+# 阶段 04 的 Demo 01 需要 numpy，matplotlib 可选（缺失时自动跳过绘图）
+# 阶段 04 的 Demo 02 需要 torch
+# 阶段 05 是文档，其中的 NumPy 片段只需要 numpy
+
+numpy>=1.24
+
+# 可选：绘制 Demo 01 的 Loss 曲线与拟合结果
+matplotlib>=3.7
+
+# 可选：运行 demo02-pytorch-classification.py
+# CPU 环境建议使用官方 CPU 源，体积更小：
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# torch>=2.0

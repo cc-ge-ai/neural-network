@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# Demo 01 运行后生成的图片
+04-demos/output/
+
+.venv/
+venv/
